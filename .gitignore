@@ -1,5 +1,5 @@
 .env
 info.txt
-.idea
+.idea/
 backend/todo/migrations
 backend/db.sqlite3
