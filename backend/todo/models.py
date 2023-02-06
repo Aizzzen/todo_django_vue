@@ -9,7 +9,7 @@ class Todo(models.Model):
     user = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE,
-        related_name='todo',
+        related_name='frontend',
         null=True,
         blank=True
     )

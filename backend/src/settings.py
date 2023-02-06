@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'corsheaders',
-    'todo.apps.TodoConfig'
+    'frontend.apps.TodoConfig'
 ]
 
 MIDDLEWARE = [
